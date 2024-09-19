@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+/* Preloader */
+.preloader{
+    height: 100vh !important;
+    background-color: #FFCA2A;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999; /* Make sure it's on top */
+}
+.gif{
+    width: 250px;
+    height: 250px;
+}
+.sidebar{
+    margin: 0;
+    height: 100vh;
+    background-color: #FFCA2A;
+    /* position: fixed; */
+
+}
+.menu-heading{
+    margin-top: 180%;
+    rotate: -90deg;
+    font-size: 6rem;
+}
+.food-item {
+    margin: 15px 0;
+    opacity: 0; 
+    transform: translateX(-100%);
+    transition: all 0.5s ease-in-out;
+}
+
+.main-heading{
+    color: #FDAE39;
+    font-family: 'BerkshireSwash-Regular' !important;
+    font-weight: 400;
+    font-size: 2.3rem;
+}
+
+.heading{
+    font-weight: 700;
+    font-style: bold;
+    font-size: 2.7rem;
+    text-decoration: none;
+}
+.sub-heading{
+    background-color: #FFCA2A;
+}
+.second-img{
+    width: 250px; 
+    margin-top: 110%;
+}
+
+@media screen and (max-width: 390px) {
+    .second-img {
+        width: 230px; 
+        margin-top: 0%;
+    }    
+}
