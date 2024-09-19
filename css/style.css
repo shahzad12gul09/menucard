@@ -31,9 +31,8 @@ body{
     margin: 0;
     height: 100vh;
     background-color: #FFCA2A;
-    /* position: fixed; */
-
 }
+
 .menu-heading{
     margin-top: 180%;
     rotate: -90deg;
@@ -46,18 +45,12 @@ body{
     transition: all 0.5s ease-in-out;
 }
 
-.main-heading{
-    color: #FDAE39;
-    font-family: 'BerkshireSwash-Regular' !important;
-    font-weight: 400;
-    font-size: 2.3rem;
-}
-
 .heading{
     font-weight: 700;
     font-style: bold;
     font-size: 2.7rem;
-    text-decoration: none;
+    margin-left: 20px;
+    padding-left: 15px;
 }
 .sub-heading{
     background-color: #FFCA2A;
@@ -66,10 +59,44 @@ body{
     width: 250px; 
     margin-top: 110%;
 }
+.content{
+    margin-left: 20px; 
+    padding-left: 15px;
+}
+
+.head{
+    margin-left: 20px;
+    padding-left: 15px;
+}
 
 @media screen and (max-width: 390px) {
     .second-img {
-        width: 230px; 
+        width: 220px; 
         margin-top: 0%;
-    }    
+    }
+    .fisrt-img{
+        width: 180px;
+    }
+    .sidebar{
+        margin: 0;
+        /* height: auto; */
+        background-color: #FFCA2A;
+    }
+    .heading{
+        font-weight: 700;
+        font-style: bold;
+        font-size: 2.3rem;
+        margin-left: 35px;
+    }
+    .head{
+        margin-left: 35px;
+    }
+    li{
+        font-size: 14px;
+    }
+    .content{
+        margin-left: 35px;
+        font-size: 12.5px;
+        padding: 0 10 0 0;
+    }
 }
